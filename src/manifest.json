@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "First Extension",
+    "description": "First chrome extension using Angular 4.",
+    "icons": {
+        "48": "assets/images/icon48.png",
+        "128": "assets/images/icon128.png"
+    },
+    "version": "1.0.0",
+    "browser_action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "background"
+    ],
+    "background": {
+        "scripts": [
+            "app/background/background.js"
+        ]
+    }
+}
